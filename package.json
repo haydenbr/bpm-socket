@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Hayden Braxton <hayden.braxton.dev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "johnny-five": "^0.14.1",
     "socket.io": "^2.0.4"
