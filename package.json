@@ -13,6 +13,8 @@
   },
   "devDependencies": {
     "@types/johnny-five": "^0.0.35",
-    "@types/socket.io": "^1.4.32"
+    "@types/socket.io": "^1.4.32",
+    "@types/socket.io-client": "^1.4.32",
+    "socket.io-client": "^2.0.4"
   }
 }
