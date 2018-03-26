@@ -47,7 +47,7 @@ function initBoard() {
 			BPM = processSignal(heartRateSensor.value);
 
 			if (BPM) {
-				io.emit('BPM', BPM);
+				io.sockets.emit('BPM', BPM);
 			}
 		});
 	});
